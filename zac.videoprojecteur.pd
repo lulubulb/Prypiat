@@ -23,7 +23,7 @@
 #X text 15 94 1024x768;
 #X text 15 104 1280x1024;
 #X text 15 114 2048x768 (splitter);
-#N canvas 437 22 345 265 GEM.init 1;
+#N canvas 437 22 345 265 GEM.init 0;
 #X msg 143 84 topmost 1;
 #X obj 283 228 gemwin;
 #X obj 14 7 inlet bang;
