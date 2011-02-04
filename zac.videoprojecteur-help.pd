@@ -1,0 +1,9 @@
+#N canvas 615 52 632 488 10;
+#X obj 0 0 doc_h;
+#X obj 0 384 doc_f;
+#X text 186 50 cet objet permet de controler l'affichage et la sortie
+OpenGL de GEM sur l'ecran adapte pour la diffusion.;
+#X obj 9 32 zac.videoprojecteur;
+#X obj 3 244 doc_c;
+#X obj 3 284 doc_i;
+#X obj 3 324 doc_o;

@@ -1,0 +1,10 @@
+#N canvas 101 270 320 211 10;
+#X obj 35 109 pix_texture;
+#X obj 35 60 gemhead;
+#X floatatom 97 143 5 0 0 0 - - -;
+#X obj 35 82 pix_image data/\$1;
+#X obj 141 134 s \$1_TEXTURE_ID;
+#X connect 0 1 2 0;
+#X connect 0 1 4 0;
+#X connect 1 0 3 0;
+#X connect 3 0 0 0;
