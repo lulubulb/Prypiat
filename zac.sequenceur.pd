@@ -1,4 +1,4 @@
-#N canvas 0 22 467 368 10;
+#N canvas 108 104 467 368 10;
 #X obj 204 3 tgl 15 0 empty empty play 17 7 0 10 -4034 -1 -1 1 1;
 #X obj 91 273 f 1;
 #X obj 118 273 + 1;
@@ -7,24 +7,24 @@
 #X obj 91 320 s NUMERO_IMAGE_SEQUENCE;
 #X obj 91 298 mod;
 #X obj 123 3 nbx 5 14 0 1e+37 0 0 empty empty empty 0 -8 0 10 -262144
--1 -1 11 256;
+-1 -1 20 256;
 #X obj 53 22 nbx 11 14 0 1e+37 0 1 empty DUREE_IMAGE s/image_(±10%)
-110 8 0 10 -262144 -1 -1 10 256;
+110 8 0 10 -262144 -1 -1 4 256;
 #X obj 91 231 metro;
 #X obj 188 151 random;
 #X obj 91 252 t b b;
 #X obj 179 174 t b f;
 #X obj 221 130 expr $f1 * 0.2;
 #X obj 153 236 nbx 16 14 0 1e+37 0 1 empty empty s/image 155 8 0 10
--262144 -1 -1 9176 256;
+-262144 -1 -1 3648 256;
 #X obj 13 113 * 1000;
 #X obj 173 203 expr $f1 + $f2 - $f3 / 2;
 #X obj 188 96 t b b;
 #X obj 56 38 hsl 100 8 0 100 0 0 \$0-timer_progress \$0-timer_progress
-empty -2 -8 0 10 -4034 -1 -1 669 1;
-#X msg 351 166 0 \, 100 \$1;
-#X obj 264 95 s \$0-timer_progress;
-#X obj 250 64 line;
+empty -2 -8 0 10 -4034 -1 -1 1628 1;
+#X msg 299 260 0 \, 100 \$1;
+#X obj 299 303 s \$0-timer_progress;
+#X obj 299 281 line;
 #X connect 0 0 9 0;
 #X connect 1 0 2 0;
 #X connect 1 0 6 0;
